@@ -14,8 +14,9 @@ describe('Testing BankApp using Page Objects',function(){
         //Add Customer Home Page
          bank_homepage.enterFirstName('Shyam');
          bank_homepage.getLastName('Prakash');
-         bank_homepage.getPostCode('500050');   
-         var openAccounts_Page = bank_homepage.clickAddCustomerBtn();
+         bank_homepage.getPostCode('500050'); 
+         
+        var openAccounts_Page = bank_homepage.clickAddCustomerBtn();
         browser.sleep(3000);
         alert_1.alert.verifyAndCloseAlert("Customer added successfully");
 
@@ -35,5 +36,5 @@ describe('Testing BankApp using Page Objects',function(){
 
      afterEach(function() {
         jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeout;
-      });
+             });
 })

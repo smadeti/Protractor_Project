@@ -8,7 +8,7 @@ var bank_home_addCustomerPage = function(){
         };
 
         this.getFirstNameText = function(){
-            return element(by.model('fName')).getText();
+            return element(by.model('fName'));
         }
 
         this.getLastName =  function(value){
