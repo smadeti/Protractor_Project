@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
     "tsc": "tsc",
     "pretest": "npm run tsc",
-    "test": "protractor outputjs/conf.js"
+    "test": "protractor outputjs/conf.js",
+    "git_command": "C:/Program Files/Git/bin/git.exe"
   },
   "author": "Shyam",
   "license": "ISC",

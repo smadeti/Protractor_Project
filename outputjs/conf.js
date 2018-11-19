@@ -17,6 +17,8 @@ exports.config = {
         // marionette : true,
         // acceptSslCerts : true
     },
+
+    
     //Running test suites, like smoke,sanity,Regression
     suites: {
         calc: ['./specs/calculator.js'],
