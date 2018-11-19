@@ -1,0 +1,29 @@
+{
+  "name": "github_report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "pretest": "npm run tsc",
+    "test": "protractor outputjs/conf.js"
+  },
+  "author": "Shyam",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.9",
+    "@types/jasminewd2": "^2.0.5",
+    "@types/lodash": "^4.14.117",
+    "@types/node": "^10.12.2",
+    "@types/request": "^2.48.1",
+    "jasmine": "^3.3.0",
+    "log4js": "^3.0.6",
+    "protractor": "^5.4.1",
+    "protractor-beautiful-reporter": "^1.2.5",
+    "ts-node": "^7.0.1"
+  }
+}
