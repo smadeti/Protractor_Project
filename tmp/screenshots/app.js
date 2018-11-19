@@ -2602,6 +2602,64 @@ app.controller('ScreenshotReportController', function ($scope) {
         "screenShotFile": "images\\004e00c7-0020-0096-0022-00ec0005005e.png",
         "timestamp": 1542617943151,
         "duration": 34045
+    },
+    {
+        "description": "Lauching BankPage|Testing BankApp using Page Objects",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "893146c072e0a87a44987f15bffb3393",
+        "instanceId": 8748,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.102"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images\\0090001e-00eb-0094-0060-00ce007c0070.png",
+        "timestamp": 1542618822021,
+        "duration": 18782
+    },
+    {
+        "description": "Lauching BankPage|Testing BankApp using Page Objects",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "1176cf00407b297e9129256fec92738f",
+        "instanceId": 8180,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.102"
+        },
+        "message": [
+            "Failed: originalTimeout is not defined"
+        ],
+        "trace": [
+            "ReferenceError: originalTimeout is not defined\n    at UserContext.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:35:44)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run afterEach in control flow\n    at UserContext.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:34:6)\n    at addSpecsToSuite (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:3:1)\n    at Module._compile (internal/modules/cjs/loader.js:688:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)\n    at Module.load (internal/modules/cjs/loader.js:598:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "images\\004d000f-0042-0004-004e-00c500d800c8.png",
+        "timestamp": 1542618905089,
+        "duration": 18154
+    },
+    {
+        "description": "Lauching BankPage|Testing BankApp using Page Objects",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "6ed8d462e09360e20f1dc1cde5acb3f1",
+        "instanceId": 10588,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.102"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images\\007400dc-00d0-0066-00fe-002a00790073.png",
+        "timestamp": 1542618965652,
+        "duration": 18166
     }
 ];
 

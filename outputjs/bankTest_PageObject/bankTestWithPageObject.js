@@ -3,6 +3,8 @@ const alert_1 = require("../util/alert");
 describe('Testing BankApp using Page Objects',function(){
        
     beforeEach(function(){
+        originalTimeout = jasmine.DEFAULT_TIMEOUT_INTERVAL;
+        jasmine.DEFAULT_TIMEOUT_INTERVAL = 100000;
        browser.get('http://www.way2automation.com/angularjs-protractor/banking/#/manager/addCust');
     });
  
@@ -31,4 +33,7 @@ describe('Testing BankApp using Page Objects',function(){
                   
      });
 
+     afterEach(function() {
+        jasmine.DEFAULT_TIMEOUT_INTERVAL = originalTimeout;
+      });
 })

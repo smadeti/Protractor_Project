@@ -28,7 +28,6 @@ exports.config = {
     // specs : ['./testspec/banktestPOM.js'],
     //specs : ['./specs/MultiWindows.js'],
     specs: ['./bankTest_PageObject/bankTestWithPageObject.js'],
-    "git_command": "C:/Program Files/Git/bin/git.exe",
     seleniumAddress: 'http://localhost:4444/wd/hub',
     onPrepare: () => {
         global.isAngularSite = function (flag) {
