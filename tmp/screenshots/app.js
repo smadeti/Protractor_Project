@@ -2514,6 +2514,94 @@ app.controller('ScreenshotReportController', function ($scope) {
         "screenShotFile": "images\\007800ab-0094-0032-0057-000c00990066.png",
         "timestamp": 1542616452466,
         "duration": 4156
+    },
+    {
+        "description": "Lauching BankPage|Testing BankApp using Page Objects",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "b82535a6921d2c3e31e80c1ce0520236",
+        "instanceId": 7404,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.102"
+        },
+        "message": [
+            "Failed: git is not defined"
+        ],
+        "trace": [
+            "ReferenceError: git is not defined\n    at UserContext.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:15:46)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Lauching BankPage\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:11:5)\n    at addSpecsToSuite (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:3:1)\n    at Module._compile (internal/modules/cjs/loader.js:688:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)\n    at Module.load (internal/modules/cjs/loader.js:598:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "images\\0099006e-00f8-00db-0079-005a00b40081.png",
+        "timestamp": 1542617310039,
+        "duration": 4011
+    },
+    {
+        "description": "Lauching BankPage|Testing BankApp using Page Objects",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "9ff788e891d45f6d407f7ac6a9bfd6f0",
+        "instanceId": 5748,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.102"
+        },
+        "message": [
+            "Failed: git is not defined"
+        ],
+        "trace": [
+            "ReferenceError: git is not defined\n    at UserContext.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:15:46)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Lauching BankPage\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:11:5)\n    at addSpecsToSuite (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:3:1)\n    at Module._compile (internal/modules/cjs/loader.js:688:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)\n    at Module.load (internal/modules/cjs/loader.js:598:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "images\\00a40026-005b-00b0-0093-00dc005e001c.png",
+        "timestamp": 1542617815734,
+        "duration": 3995
+    },
+    {
+        "description": "Lauching BankPage|Testing BankApp using Page Objects",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "71a9132eee926787b6a86f2eecddb645",
+        "instanceId": 10556,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.102"
+        },
+        "message": [
+            "Failed: git is not defined"
+        ],
+        "trace": [
+            "ReferenceError: git is not defined\n    at UserContext.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:15:46)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:112:25\n    at new ManagedPromise (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:1077:7)\n    at ControlFlow.promise (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2505:12)\n    at schedulerExecute (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:95:18)\n    at TaskQueue.execute_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:3084:14)\n    at TaskQueue.executeNext_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:3067:27)\n    at asyncRun (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2974:25)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:668:7\n    at process._tickCallback (internal/process/next_tick.js:68:7)\nFrom: Task: Run it(\"Lauching BankPage\") in control flow\n    at UserContext.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:94:19)\n    at attempt (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4297:26)\n    at QueueRunner.run (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4217:20)\n    at runNext (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4257:20)\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4264:13\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4172:9\n    at C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\jasminewd2\\index.js:64:48\n    at ControlFlow.emit (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\events.js:62:21)\n    at ControlFlow.shutdown_ (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2674:10)\n    at shutdownTask_.MicroTask (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\selenium-webdriver\\lib\\promise.js:2599:53)\nFrom asynchronous test: \nError\n    at Suite.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:11:5)\n    at addSpecsToSuite (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1107:25)\n    at Env.describe (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:1074:7)\n    at describe (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4399:18)\n    at Object.<anonymous> (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\outputjs\\bankTest_PageObject\\bankTestWithPageObject.js:3:1)\n    at Module._compile (internal/modules/cjs/loader.js:688:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)\n    at Module.load (internal/modules/cjs/loader.js:598:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "images\\00c600f9-00c1-00d3-00a7-009f009c00ff.png",
+        "timestamp": 1542617891608,
+        "duration": 22214
+    },
+    {
+        "description": "Lauching BankPage|Testing BankApp using Page Objects",
+        "passed": false,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "5c809b6ee674c94046391a0902450a46",
+        "instanceId": 9652,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.102"
+        },
+        "message": [
+            "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL."
+        ],
+        "trace": [
+            "Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.\n    at Timeout._onTimeout (C:\\Users\\smadeti\\Documents\\GITHUB_REPORT\\node_modules\\protractor\\node_modules\\jasmine-core\\lib\\jasmine-core\\jasmine.js:4281:23)\n    at ontimeout (timers.js:436:11)\n    at tryOnTimeout (timers.js:300:5)\n    at listOnTimeout (timers.js:263:5)\n    at Timer.processTimers (timers.js:223:10)"
+        ],
+        "browserLogs": [],
+        "screenShotFile": "images\\004e00c7-0020-0096-0022-00ec0005005e.png",
+        "timestamp": 1542617943151,
+        "duration": 34045
     }
 ];
 

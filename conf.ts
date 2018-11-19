@@ -39,8 +39,7 @@ export let config: Config = {
     //specs : ['./specs/MultiWindows.js'],
     specs : ['./bankTest_PageObject/bankTestWithPageObject.js'],
 
-
-    seleniumAddress: 'http://localhost:4444/wd/hub',
+     seleniumAddress: 'http://localhost:4444/wd/hub',
 
     onPrepare:()=>{
         (global as any).isAngularSite = function(flag: boolean){

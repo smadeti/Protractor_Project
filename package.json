@@ -3,16 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  
   "scripts": {
     "tsc": "tsc",
     "pretest": "npm run tsc",
-    "test": "protractor outputjs/conf.js",
-    "git_command": "C:/Program Files/Git/bin/git.exe"
+    "test": "protractor outputjs/conf.js"
   },
   "author": "Shyam",
   "license": "ISC",
   "dependencies": {
+    "express": "github:visionmedia/express",
     "lodash": "^4.17.11",
     "request": "^2.88.0"
   },

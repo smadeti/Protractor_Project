@@ -17,8 +17,6 @@ exports.config = {
         // marionette : true,
         // acceptSslCerts : true
     },
-
-    
     //Running test suites, like smoke,sanity,Regression
     suites: {
         calc: ['./specs/calculator.js'],
@@ -30,6 +28,7 @@ exports.config = {
     // specs : ['./testspec/banktestPOM.js'],
     //specs : ['./specs/MultiWindows.js'],
     specs: ['./bankTest_PageObject/bankTestWithPageObject.js'],
+    "git_command": "C:/Program Files/Git/bin/git.exe",
     seleniumAddress: 'http://localhost:4444/wd/hub',
     onPrepare: () => {
         global.isAngularSite = function (flag) {
