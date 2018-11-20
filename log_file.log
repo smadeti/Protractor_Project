@@ -75,3 +75,6 @@
 [2018-11-19T19:21:21.581] [DEBUG] default - Customer added successfully with customer id :6
 [2018-11-19T19:21:27.536] [DEBUG] default - Account created successfully with account Number :1016
 [2018-11-19T19:21:30.169] [DEBUG] default - Record Deleted Successfully
+[2018-11-19T19:42:48.683] [DEBUG] default - Customer added successfully with customer id :6
+[2018-11-19T19:42:54.232] [DEBUG] default - Account created successfully with account Number :1016
+[2018-11-19T19:42:56.831] [DEBUG] default - Record Deleted Successfully

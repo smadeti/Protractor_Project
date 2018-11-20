@@ -2982,6 +2982,24 @@ app.controller('ScreenshotReportController', function ($scope) {
         "screenShotFile": "images\\006600f0-0072-004f-00d0-0014002d00e7.png",
         "timestamp": 1542635473321,
         "duration": 18997
+    },
+    {
+        "description": "Lauching BankPage|Testing BankApp using Page Objects",
+        "passed": true,
+        "pending": false,
+        "os": "Windows NT",
+        "sessionId": "1ce3460adf3f9093779f7ec3366f1b7b",
+        "instanceId": 11044,
+        "browser": {
+            "name": "chrome",
+            "version": "70.0.3538.102"
+        },
+        "message": "Passed.",
+        "trace": "",
+        "browserLogs": [],
+        "screenShotFile": "images\\00600096-0068-00a2-002b-00dc004c00d9.png",
+        "timestamp": 1542636760544,
+        "duration": 18420
     }
 ];
 
